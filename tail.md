@@ -6,7 +6,7 @@ Late assignments will lose 10% for each day they are late rounded up, so an assi
 Anderson University Educational Commitment
 ------------------------------------------
 
-veritas – fidelitas – utilitas
+veritas - fidelitas - utilitas
 
 > The mission of Anderson University is to educate for a life of faith and service in the church and
 society. Across the curriculum students can expect faculty to guide learning experiences toward
@@ -20,9 +20,9 @@ Academic Honesty
 
 As an institution of higher education committed to academic and Christian discovery, Anderson
 University expects faculty and students alike to maintain the highest standards of academic and
-personal integrity. “Anderson University seeks to support and promote qualities of academic
+personal integrity. "Anderson University seeks to support and promote qualities of academic
 honesty and personal integrity and regards cheating, plagiarism, and all other forms of academic
-dishonesty as serious offenses against the University community” (Faculty Handbook 4.23
+dishonesty as serious offenses against the University community" (Faculty Handbook 4.23
 Policy on Academic Integrity). See the student handbook for examples of plagiarism.
 
 Academic Support Statements
@@ -55,7 +55,7 @@ Attendance Policy
 -----------------
 
 Class attendance is fundamental to the teaching/learning process and any absence from a class
-results in a loss of learning for the student and learning community. It is the student’s obligation
+results in a loss of learning for the student and learning community. It is the student's obligation
 to personally notify the course instructor about any absence, in advance if possible. Students may
 be directly penalized only after the number of absences exceeds the number of class meeting
 hours per week. Where a student misses more that the number of classes stated above, or
