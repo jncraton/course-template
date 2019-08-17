@@ -1,7 +1,8 @@
 - Instructor: Jon Craton (jlcraton@anderson.edu)
 - Office: Decker 353
 
-### Office hours
+Office hours
+------------
 
 - 9am - 10am weekdays
 - 3pm - 4pm weekdays
