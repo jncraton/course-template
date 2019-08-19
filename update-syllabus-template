@@ -1,0 +1,9 @@
+#!/bin/sh
+
+wget https://raw.githubusercontent.com/jncraton/syllabus-template/master/update-syllabus-template
+wget https://raw.githubusercontent.com/jncraton/syllabus-template/master/head.tex
+wget https://raw.githubusercontent.com/jncraton/syllabus-template/master/makefile
+wget https://raw.githubusercontent.com/jncraton/syllabus-template/master/reference.docx
+wget https://raw.githubusercontent.com/jncraton/syllabus-template/master/requirements.txt
+wget https://raw.githubusercontent.com/jncraton/syllabus-template/master/runtime.md
+wget https://raw.githubusercontent.com/jncraton/syllabus-template/master/style.css
