@@ -6,4 +6,4 @@ Office hours
 
 - 9am - 10am weekdays
 - 3pm - 4pm weekdays
-- My availability is available at [joncraton.com/calendar](https://joncraton.com/calendar)
+- My availability can be found here: [joncraton.com/calendar](https://joncraton.com/calendar)
