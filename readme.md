@@ -1,0 +1,1 @@
+curl https://raw.githubusercontent.com/jncraton/syllabus-template/master/update-syllabus-template | sh
