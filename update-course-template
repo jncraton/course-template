@@ -9,3 +9,5 @@ wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/upd
            https://raw.githubusercontent.com/jncraton/course-template/master/requirements.txt \
            https://raw.githubusercontent.com/jncraton/course-template/master/runtime.md \
            https://raw.githubusercontent.com/jncraton/course-template/master/style.css
+          
+chmod 755 update-course-template
