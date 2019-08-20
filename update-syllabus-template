@@ -1,6 +1,7 @@
 #!/bin/sh
 
 wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/update-syllabus-template
+wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/readme-template
 wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/head.tex
 wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/makefile
 wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/reference.docx
