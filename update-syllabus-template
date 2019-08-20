@@ -1,9 +1,9 @@
 #!/bin/sh
 
-wget -q -N https://raw.githubusercontent.com/jncraton/syllabus-template/master/update-syllabus-template
-wget -q -N https://raw.githubusercontent.com/jncraton/syllabus-template/master/head.tex
-wget -q -N https://raw.githubusercontent.com/jncraton/syllabus-template/master/makefile
-wget -q -N https://raw.githubusercontent.com/jncraton/syllabus-template/master/reference.docx
-wget -q -N https://raw.githubusercontent.com/jncraton/syllabus-template/master/requirements.txt
-wget -q -N https://raw.githubusercontent.com/jncraton/syllabus-template/master/runtime.md
-wget -q -N https://raw.githubusercontent.com/jncraton/syllabus-template/master/style.css
+wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/update-syllabus-template
+wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/head.tex
+wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/makefile
+wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/reference.docx
+wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/requirements.txt
+wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/runtime.md
+wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/style.css
