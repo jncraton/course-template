@@ -1,9 +1,12 @@
-all: index.html syllabus.docx lectures
+all: index.html syllabus.docx syllabus.txt lectures
 
 .PHONY: clean lectures
 
 syllabus.md: readme.md
 	markdown-pp $< -o $@
+
+syllabus.txt: syllabus.md
+	cp syllabus.md syllabus.txt
 
 syllabus.html: syllabus.md
 	pandoc --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
