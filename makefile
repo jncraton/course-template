@@ -1,4 +1,4 @@
-all: index.html syllabus.docx syllabus.txt lectures
+all: index.html syllabus.html syllabus.docx syllabus.txt lectures
 
 .PHONY: clean lectures
 
@@ -11,8 +11,8 @@ syllabus.txt: syllabus.md
 syllabus.html: syllabus.md
 	pandoc --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
 
-index.html: syllabus.html
-	cp syllabus.html index.html
+index.html: index.md
+	pandoc --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
 
 syllabus.docx: syllabus.md
 	pandoc --metadata pagetitle=Syllabus --reference-doc reference.docx -o $@ $<
