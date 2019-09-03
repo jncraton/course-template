@@ -28,7 +28,7 @@ lectures:
 	cd lectures && tree -H '.' -L 1 --noreport --charset utf-8 > index.html
 
 clean:
-	rm -f index.html syllabus*
+	rm -f index.html index.md syllabus*
 	rm -rf lectures/*.html
 	rm -rf figures
 	rm -rf __pycache__
