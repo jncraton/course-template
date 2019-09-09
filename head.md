@@ -2,7 +2,7 @@
 - Office: Decker 353
 - Lecture Notes: 
 <a href="lectures/all.md" target="_blank">Markdown</a> | 
-<a href="lectures/lectures/all.md.html" target="_blank">HTML</a> | 
+<a href="lectures/lectures/all.html" target="_blank">HTML</a> | 
 <a href="lectures/index.html" target="_blank">Daily slides</a>
 
 Office hours
