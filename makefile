@@ -1,4 +1,4 @@
-all: index.html syllabus.html syllabus.docx syllabus.txt lectures
+all: index.html syllabus.html syllabus.docx syllabus.txt lectures/index.html
 
 .PHONY: clean lectures
 
@@ -25,11 +25,20 @@ syllabus.pdf: syllabus.md
 
 lectures:
 	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true -V revealjs-url="https://revealjs.com" -o "{}.html" "{}" \;
+
+lectures/all.md:
+	rm -f lectures/all.md # This must be deleted, or it will be included in itself and hang the build
+	cd lectures && sed -e '$$G' -s *.md > all.md
+
+lectures/all.html: lectures/all.md
+	pandoc --metadata pagetitle="Lecture Notes" --standalone --css=style.css -o $@ $<
+
+lectures/index.html: lectures lectures/all.html
 	cd lectures && tree -H '.' -L 1 --noreport --charset utf-8 > index.html
 
 clean:
 	rm -f index.html index.md syllabus*
-	rm -rf lectures/*.html
+	rm -rf lectures/*.html lectures/all.md
 	rm -rf figures
 	rm -rf __pycache__
 	rm -f netlifyctl
