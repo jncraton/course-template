@@ -8,7 +8,7 @@
 Office hours
 ------------
 
-Location: Decker 353 or schedule virtual meeting
+Location: Decker 353 or scheduled virtual meeting
 
 - 3pm - 5pm Monday - Wednesday
 - 10am - 12pm Thursday
