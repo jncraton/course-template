@@ -42,6 +42,7 @@ lectures/index.html: lectures lectures/all.html lectures/all-slides.html
 clean:
 	rm -f index.html index.md syllabus*
 	rm -rf lectures/*.html lectures/all.md
+	find lectures -name "*.html" -exec rm -f {} \;
 	rm -rf figures
 	rm -rf __pycache__
 	rm -f netlifyctl
