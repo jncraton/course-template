@@ -34,7 +34,7 @@ lectures/all.html: lectures/all.md
 	pandoc --metadata pagetitle="Lecture Notes" --standalone --mathjax --css=../style.css -o $@ $<
 
 lectures/all-slides.html: lectures/all.md
-	pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true -V revealjs-url="https://revealjs.com" -o $@ $<
+	pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true -V revealjs-url="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/" -o $@ $<
 
 lectures/index.html: lectures lectures/all.html lectures/all-slides.html
 	cd lectures && tree -H '.' -L 1 --noreport --charset utf-8 > index.html
