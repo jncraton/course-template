@@ -24,7 +24,7 @@ syllabus.pdf: syllabus.md
 	pandoc --metadata title-meta=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight --mathjax --variable titlepage="false" -s -o $@ $< 
 
 lectures:
-	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true -o "{}.html" "{}" \;
+	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o "{}.html" "{}" \;
 
 lectures/all.md:
 	rm -f lectures/all.md # This must be deleted, or it will be included in itself and hang the build
@@ -34,7 +34,7 @@ lectures/all.html: lectures/all.md
 	pandoc --metadata pagetitle="Lecture Notes" --standalone --mathjax --css=../style.css -o $@ $<
 
 lectures/all-slides.html: lectures/all.md
-	pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true -V -o $@ $<
+	pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o $@ $<
 
 lectures/index.html: lectures lectures/all.html lectures/all-slides.html
 	cd lectures && tree -H '.' -L 1 --noreport --charset utf-8 -P "*.html" > index.html
