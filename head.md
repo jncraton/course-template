@@ -10,10 +10,10 @@ Office hours
 
 Location: Decker 353 or scheduled virtual meeting
 
-- 3pm - 5pm Monday - Wednesday
-- 10am - 11am Thursday
-- 1pm - 3pm Friday
+- 10am - Noon - Monday, Wednesday, and Friday
+- 1pm - 3pm Tuesday
 - My availability can be found here: [joncraton.com/calendar](https://joncraton.com/calendar)
+- Schedule a meeting during office hours: [joncraton.com/meet](https://joncraton.com/meet)
 
 I will make my self available during these times both face-to-face and virtually. Please arrange meetings ahead of time via email in either case.
 
