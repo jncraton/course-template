@@ -37,11 +37,11 @@ As a member of the AU community, we acknowledge our covenant to protect and care
 
 COVID Concerns: Students who are attending class virtually will be marked present if they participate in the scheduled class meeting via Kaltura (or other online course meeting platform) and engage with activities for the entire class time.  If a student is excused from participating ahead of time, then she/he will be counted as present after submitting the assignments that are due that week by the deadline the instructor provides to you. 
 
-Students with possible COVID-19 symptoms should not attend class or attend any in-person gathering at Anderson University. They should report symptoms on the link provided at https://anderson.edu/coronavirus/
+Students with possible COVID-19 symptoms should not attend class or attend any in-person gathering at Anderson University. They should report symptoms on the link provided at [https://anderson.edu/coronavirus/](https://anderson.edu/coronavirus/)
 
 If you need to miss class for health reasons, please contact your instructor for possible modified due dates, at his or her discretion. However, all students are responsible for all class assignments. 
 
-Guidelines may change as research and CDC guidelines are updated.  See the AU Coronavirus website for the most recent guidelines: https://anderson.edu/coronavirus/
+Guidelines may change as research and CDC guidelines are updated.  See the AU Coronavirus website for the most recent guidelines: [https://anderson.edu/coronavirus/](https://anderson.edu/coronavirus/)
 
 Academic Honesty
 ----------------
