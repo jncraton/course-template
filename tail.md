@@ -35,10 +35,9 @@ veritas - fidelitas - utilitas
 COVID-19
 --------
 
-AU is operating as a fully open campus. While AU does not require masking, the campus encourages those
-who choose not to vaccinate and those concerned with exposure to wear masks. We also acknowledge
-that in a pandemic we cannot predict conditions that may arise. For the most up to date information please
-reference our web page [COVID-19 information](https://anderson.edu/coronavirus/).
+AU is operating as a fully open campus at this point, but we also acknowledge that in a pandemic we
+cannot predict conditions that may arise. For the most up-to-date information regarding mask requirements
+and COVID-19 policies please reference our web page [COVID-19 information](https://anderson.edu/coronavirus/).
 
 Academic Honesty
 ----------------
