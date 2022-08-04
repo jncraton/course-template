@@ -43,7 +43,7 @@ and COVID-19 policies please reference our web page [COVID-19 information](https
 Academic Honesty
 ----------------
 
-As an institution of higher education committed to academic and Christian discovery, Anderson University expects faculty and students alike to maintain the highest standards of academic and personal integrity. "Anderson University seeks to support and promote qualities of academic honesty and personal integrity and regards cheating, plagiarism, and all other forms of academic dishonesty as serious offenses against the University community" (Faculty Handbook 4.23 Policy on Academic Integrity). See the student handbook for examples of plagiarism.
+As an institution of higher education committed to academic and Christian discovery, Anderson University expects faculty and students alike to maintain the highest standards of academic and personal integrity. "Anderson University seeks to support and promote qualities of academic honesty and personal integrity and regards cheating, plagiarism, and all other forms of academic dishonesty as serious offenses against the University community" (Faculty Handbook 4.23 Policy on Academic Integrity). See the [Student Handbook](https://anderson.edu/student-life/handbook/) for examples of plagiarism.
 
 Academic Support Statements
 ---------------------------
