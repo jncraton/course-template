@@ -53,9 +53,10 @@ Academic Support Statements
 Important: If you have any special accessibility needs (i.e. use of screen reading software, captioning, etc.), please notify your professor and the Director of Student Accessibility Services (Kissinger Academic Center for Excellence, Nicholson Library; 765-641-4223) as soon as possible.
 
 If you anticipate or experience physical or academic barriers based on disability, you are encouraged to contact the Director of Student Accessibility Services (Kissinger Academic Center for Excellence, Nicholson Library; 765-641-4223). To receive reasonable accommodations, you must contact Student Accessibility Services, provide documentation, and request accommodations. You should also notify your course instructor during the first week of classes.
+
 ### Kissinger Academic Center for Excellence
 
-The Kissinger Academic Center for Excellence (KACE), located on the ground floor of the Nicholson Library, provides excellent resources in all areas of study regardless of academic ability. Many students can benefit from academic support and/or sharpen their skills through studying with others. In addition, excellent students often maintain their skills by working as peer tutors. The services are available for all enrolled students at no charge. For information, call 765-641-4225.
+The [Kissinger Academic Center for Excellence (KACE)](https://anderson.edu/kissinger/services/), located on the ground floor of the Nicholson Library, provides excellent resources in all areas of study regardless of academic ability. Many students can benefit from academic support and/or sharpen their skills through studying with others. In addition, excellent students often maintain their skills by working as peer tutors. The services are available for all enrolled students at no charge. For information, call 765-641-4225.
 
 Attendance Policy
 -----------------
