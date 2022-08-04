@@ -2,7 +2,7 @@
 
 - Instructor: Jon Craton (jlcraton@anderson.edu)
 - Office: Decker 354
-- [Lecture Notes](lectures/index.html){:target="_blank"}
+- [Lecture Notes](lectures/index.html)
 
 Office hours
 ------------
