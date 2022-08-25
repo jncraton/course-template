@@ -1,4 +1,4 @@
-all: index.html syllabus.html syllabus.docx syllabus.txt lectures/index.html
+all: index.html syllabus.html syllabus.docx syllabus.txt env.html lectures/index.html
 
 .PHONY: clean lectures
 
