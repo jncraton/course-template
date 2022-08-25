@@ -24,6 +24,8 @@ lectures:
 	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o "{}.html" "{}" \;
 
 spellcheck:
+	aspell --home-dir=. --check --dont-backup head.md
+	aspell --home-dir=. --check --dont-backup tail.md
 	for f in lectures/*.md; do aspell --home-dir=. --check --dont-backup "$$f"; done
 
 lectures/all.md:
