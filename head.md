@@ -9,8 +9,8 @@ Office hours
 
 Location: Decker 354
 
-- 11am - 1pm Monday
-- 11am - 1pm Wednesday
-- 9am - 11am Thursday
+- 11am - Noon Monday
+- Noon - 3pm Tuesday
+- 11am - 3pm Wednesday
 
 - Schedule a meeting during office hours: [joncraton.com/meet](https://joncraton.com/meet)
