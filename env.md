@@ -28,9 +28,9 @@ Hosted Environments
 
 You may choose to run Linux in the cloud rather than on your own machine if desired. There are many providers that offer virtual Linux servers for a low cost or even for free. Here are a few that offer free or discounted Linux virtual servers.
 
-- Google Cloud Platform (Free e2-micro instance)
-- Amazon Web Services (Free credits for first year)
-- Oracle Cloud (Free ARM instance)
+- [Google Cloud Platform](https://cloud.google.com/) (Free e2-micro instance)
+- [Amazon Web Services](https://aws.amazon.com/) (Free credits for first year)
+- [Oracle Cloud](https://www.oracle.com/cloud/) (Free ARM instance)
 
 ARM Mac Setup
 -------------
