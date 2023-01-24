@@ -30,6 +30,7 @@ You may choose to run Linux in the cloud rather than on your own machine if desi
 
 - Google Cloud Platform (Free e2-micro instance)
 - Amazon Web Services (Free credits for first year)
+- Oracle Cloud (Free ARM instance)
 
 ARM Mac Setup
 -------------
