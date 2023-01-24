@@ -88,7 +88,7 @@ This creates a new 16 GB disk image call `disk.qcow2` in the current directory.
 ```sh
 #!/bin/bash
 
-sudo qemu-system-x86_64 \
+sudo /opt/homebrew/bin/qemu-system-x86_64 \
   -device virtio-net,netdev=net0 -netdev user,id=net0 \
   -m 4192M \
   -monitor stdio \
