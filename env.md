@@ -40,7 +40,7 @@ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh > 
 bash /tmp/brew-install.sh
 ```
 
-From here on out, it is assume that Homebrew was installed to `/opt/homebrew` and you didn't bother to add it to your `PATH`. Adjust instructions accordingly if that isn't the case.
+It is assumed that Homebrew was installed to `/opt/homebrew` and you didn't bother to add it to your `PATH`. Adjust instructions accordingly if that isn't the case.
 
 3. Install QEMU using `brew`
 
