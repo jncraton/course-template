@@ -36,7 +36,69 @@ Follow on-screen prompts and approve the agreement.
 2. Install Homebrew (`brew`) which will allow us to install other packages by running the following command:
 
 ```
-curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh > /tmp/brew-install.sh
+bash /tmp/brew-install.sh
+```
+
+From here on out, it is assume that Homebrew was installed to `/opt/homebrew` and you didn't bother to add it to your `PATH`. Adjust instructions accordingly if that isn't the case.
+
+3. Install QEMU using `brew`
+
+```
+/opt/homebrew/bin/brew install qemu
+```
+
+4. Pick or create a directory for your VM. For example:
+
+```sh
+mkdir ~/debian
+```
+
+5. Change the current directory to the directory chosen above. For example:
+
+```sh
+cd ~/debian
+```
+
+6. Create a disk image for the VM. Something like the following should be sufficient:
+
+```
+/opt/homebrew/bin/qemu-img create -f qcow2 disk.qcow2 16G
+```
+
+This creates a new 16 GB disk image call `disk.qcow2` in the current directory.
+
+7. Download install media for the OS of your choosing. Once downloaded, move the file to your VM directory and name it `install.iso`.
+
+8. Open a text editor and create a startup script name `run` with the following contents:
+
+```sh
+#!/bin/bash
+
+sudo qemu-system-x86_64 \
+  -device virtio-net,netdev=net0 -netdev user,id=net0 \
+  -m 4192M \
+  -monitor stdio \
+  -hda disk.qcow2 \
+  -cdrom install.iso
+```
+
+9. Ensure the `run` file is executable:
+
+```
+chmod 755 run
+```
+
+10. Start the VM and run through the install process. Note that this is how you will run the VM going forward:
+
+```
+./run
+```
+
+Or from anywhere on the system:
+
+```
+~/debian/run
 ```
 
 Alternative Environments
