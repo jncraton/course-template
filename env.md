@@ -20,6 +20,14 @@ The following are explicitly unsupported:
 - Python versions prior to 3.7, as these are [no longer officially supported](https://devguide.python.org/versions/).
 - Any compiled programs for architectures other than x64. If you are using a machine with a different architecture, you will need a virtualized x64 environment.
 
+Hosted Environments
+-------------------
+
+You may choose to run Linux in the cloud rather than on your own machine if desired. There are many providers that offer virtual Linux servers for a low cost or even for free. Here are a few that offer free or discounted Linux virtual servers.
+
+- Google Cloud Platform (Free e2-micro instance)
+- Amazon Web Services (Free credits for first year)
+
 ARM Mac Setup
 -------------
 
@@ -100,9 +108,3 @@ Or from anywhere on the system:
 ```
 ~/debian/run
 ```
-
-Alternative Environments
-------------------------
-
-- Google Cloud Platform (Free e2-micro instance)
-- Amazon Web Services (Free credits for first year)
