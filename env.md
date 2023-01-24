@@ -1,5 +1,5 @@
-Programming Environment
------------------------
+Programming Environment Requirements
+====================================
 
 Laptops are required for all CPSC courses and should be available in the classroom each day.
 
@@ -19,6 +19,9 @@ The following are explicitly unsupported:
 
 - Python versions prior to 3.7, as these are [no longer officially supported](https://devguide.python.org/versions/).
 - Any compiled programs for architectures other than x64. If you are using a machine with a different architecture, you will need a virtualized x64 environment.
+
+Setup Notes
+===========
 
 Hosted Environments
 -------------------
