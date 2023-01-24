@@ -36,7 +36,7 @@ You may choose to run Linux in the cloud rather than on your own machine if desi
 ARM Mac Setup
 -------------
 
-M1 and M2 Macs may be especially challenging to get working VMs due to not all software being ported to the architecture yet. The following should work to get x64 VMs working using QEMU.
+M1 and M2 Macs may be especially challenging to get x64 VMs working due to not all software being ported to the architecture yet. The following should work to run an x64 VM using QEMU.
 
 1. Install xcode by running the following in your terminal:
 
@@ -83,7 +83,7 @@ This creates a new 16 GB disk image call `disk.qcow2` in the current directory.
 
 7. Download install media for the OS of your choosing. Once downloaded, move the file to your VM directory and name it `install.iso`.
 
-8. Open a text editor and create a startup script name `run` with the following contents:
+8. Open a text editor and create a startup script named `run` with the following contents:
 
 ```sh
 #!/bin/bash
@@ -102,7 +102,7 @@ sudo qemu-system-x86_64 \
 chmod 755 run
 ```
 
-10. Start the VM and run through the install process. Note that this is how you will run the VM going forward:
+10. Start the VM and complete the install process. Note that this is also how you will run the VM going forward:
 
 ```
 ./run
