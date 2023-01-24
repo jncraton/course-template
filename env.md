@@ -36,7 +36,7 @@ You may choose to run Linux in the cloud rather than on your own machine if desi
 ARM Mac Setup
 -------------
 
-M1 and M2 Macs may be especially challenging to get x64 VMs working due to not all software being ported to the architecture yet. The following should work to run an x64 VM using QEMU.
+M1 and M2 Macs may be especially challenging due to not all software being ported to the architecture yet. The following should work to run an x64 VM using QEMU.
 
 1. Install xcode by running the following in your terminal:
 
