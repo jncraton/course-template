@@ -20,8 +20,8 @@ The following are explicitly unsupported:
 - Python versions prior to 3.7, as these are [no longer officially supported](https://devguide.python.org/versions/).
 - Any compiled programs for architectures other than x64. If you are using a machine with a different architecture, you will need a virtualized x64 environment.
 
-M1/M2 Mac Setup
----------------
+ARM Mac Setup
+-------------
 
 M1 and M2 Macs may be especially challenging to get working VMs due to not all software being ported to the architecture yet. The following should work to get x64 VMs working using QEMU.
 
