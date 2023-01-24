@@ -11,7 +11,7 @@ Unless otherwise specified, programming assignments for this course have been te
 - `gcc` version: 10.2
 - `make` version: 4.3
 
-While assignments are generally designed to work in a wide variety of environments, it is strongly recommended to have an environment as close to the one described above as possible. If you do not run x64 Linux natively on your machine, a virtualized environment can used via tools such as [QEMU](https://www.qemu.org/), [virt-manager](https://virt-manager.org/), or [VirtualBox](https://www.virtualbox.org/).
+While assignments are generally designed to work in a wide variety of environments, it is strongly recommended to have an environment as close to the one described above as possible. If you do not run x64 Linux natively on your machine, a virtualized environment can be used via tools such as [QEMU](https://www.qemu.org/), [virt-manager](https://virt-manager.org/), or [VirtualBox](https://www.virtualbox.org/).
 
 It is recommended to install a Debian-based distribution such as Debian itself, Ubuntu, or Kali. You can either download the install media and run through the installation process yourself or you can download a pre-installed image from a provider such as [Linux VM Images](https://www.linuxvmimages.com/)  or [OSBoxes](https://www.osboxes.org/).
 
