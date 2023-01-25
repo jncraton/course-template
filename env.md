@@ -38,57 +38,43 @@ ARM Mac Setup
 
 M1 and M2 Macs may be especially challenging due to not all software being ported to the architecture yet. The following should work to run an x64 VM using QEMU.
 
-1. Install xcode by running the following in your terminal:
-
-```sh
-xcode-select --install
-```
-
-Follow on-screen prompts and approve the agreement.
-
-2. Install Homebrew (`brew`) which will allow us to install other packages by running the following command:
+1. Install Homebrew (`brew`) if you have not already done so. This will allow us to install other packages by running the following command:
 
 ```
-curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh > /tmp/brew-install.sh
-bash /tmp/brew-install.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-It is assumed that Homebrew was installed to `/opt/homebrew` and you didn't bother to add it to your `PATH`. Adjust instructions accordingly if that isn't the case.
+Full instructions are available on the [Homebrew site](https://brew.sh/).
 
-3. Install QEMU using `brew`
+2. Install QEMU using `brew`
 
 ```
-/opt/homebrew/bin/brew install qemu
+brew install qemu
 ```
 
-4. Pick or create a directory for your VM. For example:
+3. Pick or create a directory for your VM and `cd` into it. For example:
 
 ```sh
 mkdir ~/debian
-```
-
-5. Change the current directory to the directory chosen above. For example:
-
-```sh
 cd ~/debian
 ```
 
-6. Create a disk image for the VM. Something like the following should be sufficient:
+4. Create a disk image for the VM. Something like the following should be sufficient:
 
 ```
-/opt/homebrew/bin/qemu-img create -f qcow2 disk.qcow2 16G
+qemu-img create -f qcow2 disk.qcow2 16G
 ```
 
 This creates a new 16 GB disk image call `disk.qcow2` in the current directory.
 
-7. Download install media for the OS of your choosing. Once downloaded, move the file to your VM directory and name it `install.iso`.
+5. Download install media for the OS of your choosing. Once downloaded, move the file to your VM directory and name it `install.iso`.
 
-8. Open a text editor and create a startup script named `run` with the following contents:
+6. Open a text editor and create a startup script named `run` with the following contents:
 
 ```sh
 #!/bin/bash
 
-sudo /opt/homebrew/bin/qemu-system-x86_64 \
+sudo qemu-system-x86_64 \
   -device virtio-net,netdev=net0 -netdev user,id=net0 \
   -m 4192M \
   -monitor stdio \
@@ -96,13 +82,13 @@ sudo /opt/homebrew/bin/qemu-system-x86_64 \
   -cdrom install.iso
 ```
 
-9. Ensure the `run` file is executable:
+7. Ensure the `run` file is executable:
 
 ```
 chmod 755 run
 ```
 
-10. Start the VM and complete the install process. Note that this is also how you will run the VM going forward:
+8. Start the VM and complete the install process. Note that this is also how you will run the VM going forward:
 
 ```
 ./run
