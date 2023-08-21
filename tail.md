@@ -33,13 +33,6 @@ veritas - fidelitas - utilitas
 >
 > As a student of the university you are expected to fully engage in vigorous intellectual and experiential activity where head, heart, and hands are equally engaged and a commitment to Christ is honored.
 
-COVID-19
---------
-
-AU is operating as a fully open campus at this point, but we also acknowledge that in a pandemic we
-cannot predict conditions that may arise. For the most up-to-date information regarding mask requirements
-and COVID-19 policies please reference our web page [COVID-19 information](https://anderson.edu/coronavirus/).
-
 Academic Honesty
 ----------------
 
