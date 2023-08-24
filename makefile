@@ -25,7 +25,9 @@ env.html: env.md
 
 lectures:
 	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o "{}.html" "{}" \;
-	rename 's/.md.html/.html/' lectures/*
+	for file in lectures/*.md.html; do \
+	    mv -- "$$file" "$$(echo $$file | sed 's/.md//')"; \
+	done
 
 spellcheck:
 	aspell --home-dir=. --check --dont-backup head.md
