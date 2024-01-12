@@ -36,7 +36,7 @@ syllabus.pdf: syllabus.md
 		-dMonoImageResolution=75		\
 		-sOutputFile=syllabus-comp.pdf \
 		syllabus.pdf
-	cp -f syllabus-comp.pdf CPSC*.pdf
+	cp -f syllabus-comp.pdf syllabus.pdf
 
 env.html: env.md
 	pandoc -V lang=en --metadata pagetitle=Environment --standalone --css=style.css -o $@ $<
