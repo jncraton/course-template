@@ -34,7 +34,11 @@ with open('topics.tsv') as f:
         dow = day3_map[day[0].strftime("%a")]
         week = int(day[0].strftime("%V")) - start_week
 
+        if not day[1]:
+            print(f"Week {week} Out of topics ({day[0].strftime('%A, %B %d')})")
+            continue
+
         if dow in config['lab_days']:
             assert day[1]['type'] == 'lab', f'Day should be lab {i+2}'
 
-        print(f"Week {week} {day[1]['type'].title()}: {day[1]['name'] if day[1] != None else 'Out of topics'} ({day[0].strftime('%A, %B %d')})")
+        print(f"Week {week} {day[1]['type'].title()}: {day[1]['name']} ({day[0].strftime('%A, %B %d')})")
