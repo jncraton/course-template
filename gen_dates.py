@@ -20,7 +20,7 @@ rules.rrule(
     )
 )
 for b in config["breaks"]:
-    rules.exdate(datetime.fromisoformat(b))
+    rules.exdate(datetime.fromisoformat(b.split()[0]))
 
 with open("topics.tsv") as f:
     lectures = csv.DictReader(f, dialect="excel-tab")
