@@ -96,6 +96,7 @@ update:
 	# readme.md was previously used as syllabus template
 	# Copy it if needed when updating
 	cp --no-clobber readme.md syllabus-template.md
+	git add -f syllabus-template.md
 
 	make readme.md
 
