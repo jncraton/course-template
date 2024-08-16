@@ -4,7 +4,9 @@ all: index.html syllabus.html syllabus.docx syllabus.txt env.html syllabus.md le
 
 syllabus.md: syllabus-template.md head.md tail.md
 	markdown-pp $< -o $@
-	cp -f syllabus.md readme.md
+
+readme.md: syllabus.md
+	cp -f $< $@
 
 syllabus.txt: syllabus.md
 	cp syllabus.md syllabus.txt
