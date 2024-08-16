@@ -10,7 +10,7 @@ curl https://raw.githubusercontent.com/jncraton/course-template/master/update-co
 Syllabus
 --------
 
-A course syllabus will be generated from `readme.md`. An example readme can be found in `readme-template.md`.
+A course syllabus will be generated from `syllabus-template.md`.
 
 Lectures
 --------
