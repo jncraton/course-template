@@ -73,6 +73,26 @@ examples/index.html:
 lectures/reveal.js:
 	cd lectures && git clone --depth=1 --branch 3.9.2 https://github.com/hakimel/reveal.js
 
+update:
+	wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.gitignore \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/readme-template.md \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/head.tex \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/makefile \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/reference.docx \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/requirements.txt \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/runtime.md \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/head.md \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/tail.md \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/env.md \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/style.css \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_dates.py \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/config.json
+
+	mkdir -p .github/workflows
+	cd .github/workflows && wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.github/workflows/pages.yml
+
+	make readme.md
+
 clean:
 	rm -rf pandoc*
 	rm -f index.html index.md syllabus* env.html *.pdf
