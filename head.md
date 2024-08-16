@@ -13,5 +13,4 @@ Office hours
 - Tuesday: 2pm - 3pm
 - Wednesday: 11am - noon, 2pm - 3pm
 - Friday: 11am - noon, 1pm - 3pm
-
 - Schedule a meeting during office hours: [joncraton.com/meet](https://joncraton.com/meet)
