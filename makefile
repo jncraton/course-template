@@ -93,6 +93,10 @@ update:
 	mkdir -p .github/workflows
 	cd .github/workflows && wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.github/workflows/pages.yml
 
+	# readme.md was previously used as syllabus template
+	# Copy it if needed when updating
+	cp --no-clobber readme.md syllabus-template.md
+
 	make readme.md
 
 clean:
