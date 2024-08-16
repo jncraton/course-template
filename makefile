@@ -1,9 +1,10 @@
-all: index.html syllabus.html syllabus.docx syllabus.txt env.html lectures/index.html examples/index.html
+all: index.html syllabus.html syllabus.docx syllabus.txt env.html syllabus.md lectures/index.html examples/index.html
 
 .PHONY: clean lectures
 
-syllabus.md: readme.md
+syllabus.md: syllabus-template.md head.md tail.md
 	markdown-pp $< -o $@
+	cp -f syllabus.md readme.md
 
 syllabus.txt: syllabus.md
 	cp syllabus.md syllabus.txt
@@ -94,7 +95,7 @@ update:
 
 clean:
 	rm -rf pandoc*
-	rm -f index.html index.md syllabus* env.html *.pdf
+	rm -f index.html index.md syllabus.md syllabus.docx syllabus.html syllabus.pdf env.html *.pdf
 	rm -rf lectures/*.html lectures/all.md
 	rm -rf examples/index.html
 	find lectures -name "*.html" -exec rm -f {} \;
