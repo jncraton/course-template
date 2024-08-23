@@ -100,6 +100,8 @@ update:
 	cp --no-clobber readme.md syllabus-template.md
 	git add -f syllabus-template.md
 
+	git add -f gen_lecture_index.py
+
 	make readme.md
 
 clean:
