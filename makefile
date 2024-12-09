@@ -1,3 +1,5 @@
+SHELL := bash -O nullglob
+
 all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html lectures/index.html examples/index.html
 
 .PHONY: clean lectures
