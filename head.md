@@ -7,9 +7,6 @@ Instructor
 Email
   ~ [jlcraton@anderson.edu](mailto:jlcraton@anderson.edu)
 
-Office
-  ~ Decker 354
-
 Office hours
 ------------
 
@@ -27,5 +24,8 @@ Thursday
 
 Friday
   ~ 11am - noon
+
+Office
+  ~ Decker 354
 
 Schedule a meeting during office hours: [joncraton.com/meet](https://joncraton.com/meet)
