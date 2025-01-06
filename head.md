@@ -18,7 +18,7 @@ Monday
 
 Tuesday
   ~ 1pm - 3pm
-  
+
 Wednesday
   ~ 2pm - 3pm
 
