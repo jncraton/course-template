@@ -1,5 +1,3 @@
-<main>
-
 Term
   ~ Spring 2025
 
