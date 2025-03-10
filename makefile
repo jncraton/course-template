@@ -53,7 +53,7 @@ lectures:
 	    mv -- "$$file" "$$(echo $$file | sed 's/.md//')"; \
 	done
 	for file in lectures/media/*.puml; do \
-	    plantuml -output .. "$$file"; \
+	    plantuml -Sdpi=300 -output .. "$$file"; \
 	done
 
 spellcheck:
