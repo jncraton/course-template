@@ -77,7 +77,7 @@ lectures/index.html: lectures lectures/all.html lectures/all-slides.html lecture
 	pandoc lectures/index.md -o $@
 
 examples/index.html:
-	cd examples && tree -H '.' -L 1 --noreport --charset utf-8 -P "*" | sponge index.html
+	cd examples && tree -H '.' -L 2 --noreport --charset utf-8 -P "*" | sponge index.html
 
 lectures/reveal.js:
 	cd lectures && git clone --depth=1 --branch 5.2.0 https://github.com/hakimel/reveal.js
