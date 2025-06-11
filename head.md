@@ -1,5 +1,5 @@
 Term
-  ~ Spring 2025
+  ~ Fall 2025
 
 Instructor
   ~ Jon Craton
@@ -20,6 +20,6 @@ Friday
   ~ 11am - noon
 
 Office
-  ~ Decker 354
+  ~ Decker 305
 
 Schedule a meeting during office hours: [joncraton.com/meet](https://joncraton.com/meet)
