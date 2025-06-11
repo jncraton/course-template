@@ -5,7 +5,9 @@ all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pd
 .PHONY: clean lectures
 
 syllabus.md: syllabus-template.md head.md tail.md
-	markdown-pp $< -o $@
+	cp -f $< $@
+	sed -i -e "/head.md/{r head.md" -e "d}" $@
+	sed -i -e "/tail.md/{r tail.md" -e "d}" $@
 
 readme.md: syllabus.md
 	cp -f $< $@
