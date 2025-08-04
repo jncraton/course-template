@@ -11,10 +11,16 @@ Office hours
 ------------
 
 Monday
-  ~ 11am - noon, 1pm - 3pm
+  ~ 11am - noon, 2pm - 3pm
 
 Tuesday
-  ~ 1pm - 3pm
+  ~ 2pm - 3pm
+
+Wednesday
+  ~ 11am - noon, 2pm - 3pm
+
+Thursday
+  ~ 9am - 11am
 
 Friday
   ~ 11am - noon
