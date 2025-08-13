@@ -60,6 +60,7 @@ lectures:
 
 spellcheck:
 	aspell --home-dir=. --check --dont-backup head.md
+	aspell --home-dir=. --check --dont-backup readme.md
 	aspell --home-dir=. --check --dont-backup tail.md
 	aspell --home-dir=. --check --dont-backup env.md
 	for f in lectures/*.md; do aspell --home-dir=. --check --dont-backup "$$f"; done
