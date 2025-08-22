@@ -49,7 +49,7 @@ Professional software development often involves collaboration and the use of va
 
 The use of [generative artificial intelligence](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) tools must adhere to ethical standards and uphold academic integrity. While AI tools can be useful for coding assistance, they should not replace the learning experience of practicing coding skills. Therefore, excessive reliance on such tools without proper understanding is considered academic dishonesty.
 
-In general, [intelligent code completion](https://en.wikipedia.org/wiki/Intelligent_code_completion) and utilizing large language models to aid in programming problems is appropriate on lab assignments. However, students must demonstrate comprehension and ownership of their submitted work. If a student cannot fully understand or explain their code, they should not submit it as their own.
+In general, [intelligent code completion](https://en.wikipedia.org/wiki/Intelligent_code_completion) and utilizing large language models to aid in programming problems is appropriate on lab assignments. However, students must demonstrate comprehension and ownership of their submitted work. If a student cannot fully understand or explain their code, they must not submit it as their own.
 
 Academic Support Statements
 ---------------------------
