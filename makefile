@@ -18,8 +18,8 @@ syllabus.txt: syllabus.md
 syllabus.html: syllabus.md
 	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
 
-index.html: syllabus.md
-	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
+index.html: syllabus.html
+	cp -f $< $@
 
 syllabus.docx: syllabus.md
 	pandoc -V lang=en --metadata pagetitle=Syllabus --reference-doc reference.docx -o $@ $<
