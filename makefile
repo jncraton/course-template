@@ -16,7 +16,7 @@ syllabus.txt: syllabus.md
 	cp syllabus.md syllabus.txt
 
 syllabus.html: syllabus.md
-	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
+	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css --lua-filter=filters.lua -o $@ $<
 
 index.html: syllabus.html
 	cp -f $< $@
