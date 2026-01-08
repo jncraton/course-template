@@ -112,6 +112,9 @@ update:
 
 	git add -f gen_lecture_index.py
 
+	# Remove old requirements.txt if it exists
+	rm -f requirements.txt
+
 	make readme.md
 
 format:
