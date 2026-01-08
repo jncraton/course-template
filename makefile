@@ -91,7 +91,6 @@ update:
 	           https://raw.githubusercontent.com/jncraton/course-template/master/head.tex \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/makefile \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/reference.docx \
-	           https://raw.githubusercontent.com/jncraton/course-template/master/requirements.txt \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/runtime.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/head.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/tail.md \
