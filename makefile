@@ -116,7 +116,7 @@ update:
 	make readme.md
 
 format:
-	npx prettier --write **.md
+	npx prettier --write **.md style.css
 
 clean:
 	rm -rf pandoc*
