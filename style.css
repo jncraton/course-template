@@ -181,21 +181,23 @@ ul ul, ol ol {
   margin: .3em 0;
 }
 
-dl {
-  margin-bottom: 1em;
+dt,
+dd {
+  display: inline;
+  margin-left: 0;
 }
 
 dt {
   font-weight: bold;
-  margin-bottom: .8em;
 }
 
-dd {
-  margin: 0 0 .8em 2em;
+dt::before {
+  content: '';
+  display: block;
 }
 
-dd:last-child {
-  margin-bottom: 0;
+dt::after {
+  content: ': ';
 }
 
 img {
