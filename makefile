@@ -87,6 +87,7 @@ lectures/reveal.js:
 
 update:
 	wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.gitignore \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/.prettierrc.json \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/head.tex \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/makefile \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/reference.docx \
