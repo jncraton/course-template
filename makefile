@@ -116,7 +116,7 @@ update:
 	make readme.md
 
 format:
-	npx prettier --write **.md style.css
+	npx prettier@3.6.2 --write **.md style.css
 	pipx run black gen_lecture_index.py
 
 clean:
