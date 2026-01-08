@@ -115,6 +115,9 @@ update:
 
 	make readme.md
 
+format:
+	npx prettier --write **.md
+
 clean:
 	rm -rf pandoc*
 	rm -f index.html index.md syllabus.md syllabus.docx syllabus.html syllabus.pdf env.html *.pdf
