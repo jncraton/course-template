@@ -117,7 +117,7 @@ update:
 
 format:
 	npx prettier@3.6.2 --write **.md style.css
-	pipx run black gen_lecture_index.py
+	pipx run --spec black==25.12.0 black gen_lecture_index.py
 
 clean:
 	rm -rf pandoc*
