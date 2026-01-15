@@ -77,7 +77,7 @@ lectures/all-slides.html: lectures/all.md
 
 lectures/index.html: lectures lectures/all.html lectures/all-slides.html lectures/reveal.js
 	python3 gen_lecture_index.py
-	pandoc lectures/index.md -o $@
+	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=../style.css --lua-filter=filters.lua -o $@ lectures/index.md
 
 examples/index.html:
 	cd examples && tree -H '.' -L 2 --noreport --charset utf-8 -P "*" | sponge index.html
