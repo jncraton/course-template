@@ -1,0 +1,4 @@
+#!/bin/bash
+
+npx reveal-notes-server revealDir=lectures/reveal.js --presentationIndex="/$1" --hostname=$(ip route get 1.1.1.1 | awk '{for(i=1;i<=NF;i++) if($i=="src") print $(i+1)}')
+1
