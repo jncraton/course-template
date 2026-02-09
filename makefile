@@ -84,7 +84,6 @@ examples/index.html:
 
 lectures/reveal.js:
 	wget -qO- https://github.com/hakimel/reveal.js/archive/refs/tags/5.2.1.tar.gz | tar -xz -C lectures --transform='s|^reveal.js-5.2.1|reveal.js|'
-	cd lectures/reveal.js && npm install reveal-notes-server
 
 update:
 	wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.gitignore \
@@ -99,7 +98,6 @@ update:
 	           https://raw.githubusercontent.com/jncraton/course-template/master/style.css \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/filters.lua \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/revealjs-template.html \
-	           https://raw.githubusercontent.com/jncraton/course-template/master/lectures/remote-control \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_dates.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_lecture_index.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/config.json
@@ -131,7 +129,6 @@ clean:
 	rm -f index.html index.md syllabus.md syllabus.docx syllabus.html syllabus.pdf env.html *.pdf
 	rm -rf lectures/**.html lectures/all.md lectures/index.md
 	rm -rf lectures/*.png
-	rm -f lectures/package.json lectures/pacakge-lock.json
 	rm -rf examples/index.html
 	find lectures -name "*.html" -exec rm -f {} \;
 	rm -rf figures
