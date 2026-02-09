@@ -84,6 +84,7 @@ examples/index.html:
 
 lectures/reveal.js:
 	cd lectures && git clone --depth=1 --branch 5.2.0 https://github.com/hakimel/reveal.js
+	cd lectures/reveal.js && npm install reveal-notes-server
 
 update:
 	wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.gitignore \
