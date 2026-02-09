@@ -131,6 +131,7 @@ clean:
 	rm -f index.html index.md syllabus.md syllabus.docx syllabus.html syllabus.pdf env.html *.pdf
 	rm -rf lectures/**.html lectures/all.md lectures/index.md
 	rm -rf lectures/*.png
+	rm -f lectures/package.json lectures/pacakge-lock.json
 	rm -rf examples/index.html
 	find lectures -name "*.html" -exec rm -f {} \;
 	rm -rf figures
