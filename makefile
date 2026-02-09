@@ -99,6 +99,7 @@ update:
 	           https://raw.githubusercontent.com/jncraton/course-template/master/style.css \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/filters.lua \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/revealjs-template.html \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/lectures/remote-control \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_dates.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_lecture_index.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/config.json
