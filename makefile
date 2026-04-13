@@ -122,7 +122,7 @@ update:
 
 skill:
 	mkdir -p skill/references/lectures
-	cp lectures/*.md skill/references/lectures
+	cp lectures/[0-9]*.md skill/references/lectures
 	cd skill && zip -r course.skill .
 	mv skill/*.skill .
 	rm -rf skill/references/lectures
