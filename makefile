@@ -1,6 +1,6 @@
 SHELL := bash -O nullglob
 
-all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html lectures/index.html examples/index.html
+all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html lectures/index.html examples/index.html skill
 
 .PHONY: clean lectures
 
@@ -119,6 +119,13 @@ update:
 	rm -f requirements.txt formats.md
 
 	make readme.md
+
+skill:
+	mkdir -p skill/references/lectures
+	cp lectures/*.md skill/references/lectures
+	cd skill && zip -r course.skill .
+	mv skill/*.skill .
+	rm -rf skill/references/lectures
 
 format:
 	npx prettier@3.6.2 --write **.md style.css
