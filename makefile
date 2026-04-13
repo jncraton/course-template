@@ -2,7 +2,7 @@ SHELL := bash -O nullglob
 
 all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html lectures/index.html examples/index.html skill
 
-.PHONY: clean lectures
+.PHONY: clean lectures skill
 
 syllabus.md: syllabus-template.md head.md tail.md
 	cp -f $< $@
