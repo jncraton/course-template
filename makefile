@@ -121,11 +121,7 @@ update:
 	make readme.md
 
 skill:
-	mkdir -p skill/references/lectures
-	cp lectures/[0-9]*.md skill/references/lectures
-	cd skill && zip -r course.skill .
-	mv skill/*.skill .
-	rm -rf skill/references/lectures
+	python3 gen_skill.py
 
 format:
 	npx prettier@3.6.2 --write **.md style.css
@@ -141,7 +137,7 @@ clean:
 	rm -rf figures
 	rm -rf __pycache__
 	rm -f netlifyctl
-	rm -f course.skill
+	rm -f course-assistant.skill
 	rm -rf revealjs
 	rm -rf lectures/reveal.js
 	rm -f readme-template.md
