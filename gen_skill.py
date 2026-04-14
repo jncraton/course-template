@@ -107,10 +107,23 @@ def build_skill_content(
 
     lecture_block = f"""## Lecture notes
 
-Lecture slides and notes are available online at {lecture_url_base}. Use the slide fragment after `#/` to jump directly to a specific slide. For example:
-`{lecture_url_base}/26-virtual-memory.html#/private-storage`
+Always check `references/lectures/` first. If the relevant concept is covered in a lecture file there, quote or paraphrase from it before going elsewhere. This reinforces the course material the student already encountered.
 
-This course-assistant.skill also includes the lecture source directory under `references/lectures`.
+Lecture slides and notes are published online at {lecture_url_base}. Use the slide fragment after `#/` to jump directly to a specific slide. For example:
+
+`lectures/26-lecture-slug.md` would become `{lecture_url_base}/26-lecture-slug.html#/slide-heading`
+
+If available, use search to find appropriate documentation to assist with this issue. Whenever possible, include a link to both:
+
+1. A related lecture, ideally with a direct link to a slide.
+2. Helpful official documentation identified via web search.
+
+## Images
+
+If appropriate, include images that were used in slides. External images can be safely and appropriately hotlinked. Internal relative image paths can be translated to public urls as:
+
+`media/5-2.png` becomes `{lecture_url_base}/media/5-2.png`
+
 """
 
     return f"""---
@@ -139,6 +152,7 @@ description: {description}
 - Helping students connect course topics to repository materials and lab exercises.
 
 {lecture_block}
+
 ## What this skill will not do
 - Complete assignments or lab work for students.
 - Access external systems or private course platforms.
