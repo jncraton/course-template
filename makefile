@@ -100,6 +100,7 @@ update:
 	           https://raw.githubusercontent.com/jncraton/course-template/master/revealjs-template.html \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_dates.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_lecture_index.py \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_skill.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/config.json
 
 	mkdir -p .github/workflows
