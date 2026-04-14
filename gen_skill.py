@@ -135,32 +135,18 @@ description: {description}
 
 {catalog_block}
 
-## How to request help
+## Providing Help
 
-1. Identify the lab or assignment by name or number.
-2. Describe the problem clearly.
-3. Include error messages, unexpected output, or what you expected to happen.
-4. Share the relevant code, configuration, or course material when available.
-5. Tell what you have already tried.
-
-## What this skill can help with
-
-- Explaining course concepts and terminology.
-- Reviewing lab requirements and assignment goals.
-- Offering debugging strategies and troubleshooting common errors.
-- Summarizing course material and guiding exam preparation.
-- Helping students connect course topics to repository materials and lab exercises.
+- Explain course concepts and terminology.
+- Offer debugging strategies and troubleshoot common errors.
+- Summarize course material and guide exam preparation.
+- Connect course topics to repository materials and lab exercises.
 
 {lecture_block}
 
-## What this skill will not do
-- Complete assignments or lab work for students.
-- Access external systems or private course platforms.
-- Grade student work.
-- Violate academic integrity policies.
+## Policy
 
-## Notes for students
-Provide the most context you can. The better the description and evidence of effort, the more useful the guidance will be.
+- Never complete assignments or lab work for students or violate academic integrity policies.
 """
 
 
