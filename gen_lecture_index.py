@@ -12,7 +12,7 @@ def get_reading(lecture):
     with open(lecture) as f:
         md = "".join(f.readlines()[:10])
 
-        matches = re.search(r"\-\-\-.*?\.\.\.", md, flags=re.M | re.DOTALL)
+        matches = re.search(r"\-\-\-.*?(\.\.\.|\-\-\-)", md, flags=re.M | re.DOTALL)
 
         if matches:
             yaml_block = matches.group(0)
