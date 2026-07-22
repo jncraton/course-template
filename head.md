@@ -1,5 +1,5 @@
 Term
-~ Spring 2026
+~ Fall 2026
 
 Instructor
 ~ Jon Craton
