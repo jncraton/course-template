@@ -1,5 +1,5 @@
 Term
-~ Fall 2026
+~ Spring 2026
 
 Instructor
 ~ Jon Craton
@@ -10,16 +10,16 @@ Email
 ## Office hours
 
 Monday
-~ 11am - noon, 2pm - 3:30pm
+~ 11am - 12:00pm, 2:00pm - 3:30pm
 
 Tuesday
-~ 9am - 11am, 2pm - 3:30pm
+~ 10:00am - 11:00am, 2:00pm - 3:30pm
 
 Wednesday
-~ 11am - noon
+~ 10:00am - 12:00pm
 
-Friday
-~ 11am - noon
+Thursday
+~ 11:00am - 12:00pm
 
 Office
 ~ Decker 305
