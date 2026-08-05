@@ -41,9 +41,7 @@ As an institution of higher education committed to academic and Christian discov
 
 Professional software development often involves collaboration and the use of various external resources. Nevertheless, each contributor is responsible for ensuring the quality and accuracy of their contributions. Students must take full responsibility for their submitted work, regardless of any external resources or tools used to complete the work. Students should only submit work that would be considered their own in a professional setting.
 
-The use of [generative artificial intelligence](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) tools must adhere to ethical standards and uphold academic integrity. While AI tools can be useful for coding assistance, they should not replace the learning experience of practicing coding skills. Therefore, excessive reliance on such tools without proper understanding is considered academic dishonesty.
-
-In general, [intelligent code completion](https://en.wikipedia.org/wiki/Intelligent_code_completion) and utilizing large language models to aid in programming problems is appropriate on lab assignments. However, students must demonstrate comprehension and ownership of their submitted work. If a student cannot fully understand or explain their code, they must not submit it as their own.
+The use of [generative artificial intelligence](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) tools must adhere to ethical standards and uphold academic integrity. While AI tools can be useful for coding assistance, they should not replace the learning experience of practicing coding skills. Therefore, excessive reliance on such tools without proper understanding is considered academic dishonesty. Students must demonstrate comprehension and ownership of their submitted work. If a student cannot fully understand or explain their code, they must not submit it as their own.
 
 ## Academic Support Statements
 
