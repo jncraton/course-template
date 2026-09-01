@@ -17,7 +17,7 @@ It is recommended to install a Debian-based distribution such as Debian itself, 
 The following are explicitly unsupported:
 
 - Python versions prior to 3.11, as these are [no longer officially supported](https://devguide.python.org/versions/).
-- Any compiled programs for architectures other than x64. If you are using a machine with a different architecture, you will need a virtualized x64 environment.
+- Compiled programs for architectures other than x64. If you are using a machine with a different architecture, you may need a virtualized x64 environment for some assignments.
 
 # Setup Notes
 
